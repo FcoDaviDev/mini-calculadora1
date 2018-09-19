@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Calculadora</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="get" action="mini-calculadora.php">
+		Número<input type="number" name="num">
+		<fieldset> <legend>Operação</legend>
+			<input type="radio" name="oper" id="dobro" value="1" checked="checked">
+			<label for="dobro">Dobro</label>
+			<input type="radio" name="oper" id="quadrado" value="2">
+			<label for="quadrado">Raiz Quadrada</label>
+			<input type="radio" name="oper" id="cubo" value="3">
+			<label for="cubo">Cubo</label>
+
+		</fieldset>
+		<input type="submit" value="Calcular">
+	</form>
+</body>
+</html>
